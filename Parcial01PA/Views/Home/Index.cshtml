@@ -1,0 +1,25 @@
+﻿@model Parcial01PA.Models.ActionCajero
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h1>Hola Bienvenido!</h1>
+<h3>Kevin Miguel Henríquez Pérez</h3>
+<div class="color">
+    <form asp-controller="Home" asp-action="RetirarEfectivo">
+        <div class="card">
+            <label>Monto</label>
+            
+                <input type="number" asp-for="Monto" placeholder="Coloca el monto"/>
+        
+            <button class="btn btn-primary">Retirar</button>
+        </div>
+        <label></label>
+    <label>@ViewBag.VariableAEnviar</label>
+    </form>
+</div>
