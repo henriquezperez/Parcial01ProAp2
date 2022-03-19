@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Mis archivos\\Escritorio\\Parcial01PA\\Parcial01PA\\Views\\Home\\NoValido.cshtml",
+      "TargetPath": "Views\\Home\\NoValido.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Mis archivos\\Escritorio\\Parcial01PA\\Parcial01PA\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

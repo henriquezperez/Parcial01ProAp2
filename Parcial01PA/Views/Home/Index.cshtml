@@ -17,10 +17,11 @@
             <h5>Introduce valores multiplo de 5:</h5>
             <label>Monto</label>
             
-                <input type="number" asp-for="Monto" placeholder="Coloca el monto"/>
+                <input type="number" asp-for="Monto" placeholder="Coloca el monto" min="1"/>
         
             <button class="btn btn-primary">Retirar</button>
         </div>
+        
         <label></label>
     <label>@ViewBag.VariableAEnviar</label>
     </form>

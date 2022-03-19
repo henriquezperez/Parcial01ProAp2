@@ -24,11 +24,18 @@ namespace Parcial01PA.Controllers
         }
 
         public IActionResult RetirarEfectivo(ActionCajero cajero){
+            if(cajero.Monto == 0 || cajero.Monto < 1){
+                return View("NoValido");
+            }
             CajeroBL cj = new CajeroBL();
             int res = cj.Verificar(cajero);
             if(res != 0){
                 return View("ErrorMonto");
             }
+            return View();
+        }
+
+        public IActionResult NoValido(){
             return View();
         }
 
